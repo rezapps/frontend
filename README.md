@@ -10,4 +10,17 @@ The page passes Html Checker [Html Checker](https://validator.w3.org/nu/?doc=htt
 
 ### Assignment No.7
 
+Page is using css with flex.
+Color palette:
+
+1. minion-white: f9f9f9
+2. minion-yellow: f9d773;
+3. minion-blue: 546a9f
+4. poison: 4f1883;
+5. gru-black: 0b0404;
+6. gru-red: d70e37;
+7. gru-blue: 003366;
+
+![Color Palette](./Assignment-7/img/ColorPalette.png)
+
 ### Assignment No.8
