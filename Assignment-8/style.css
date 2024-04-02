@@ -4,11 +4,10 @@
 
 :root {
     --secondary: #f3f4ee;
-    --liter-brown: #BF946F;
-    --lite-brown: #A6653F;
-    --primary: #5F351D;
+    --primary: #BF946F;
     --bg-clr: #151515;
 }
+
 
 body {
     font-family: "Bad Script", cursive;
@@ -19,11 +18,11 @@ body {
     color: var(--secondary);
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .kontakt, .price {
     text-align: center;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
-    color: var(--liter-brown);
+    color: var(--primary);
 }
 
 .navbar a {
@@ -97,19 +96,52 @@ div h2 {
     justify-content: center;
 }
 
-.small-events img {
-    max-height: 340px;
-    width: auto;
-    height: 100%;
-    max-width: 75%;
-    border-radius: 2rem;
-}
-
 .border-img img{
-    border-top: 1px solid var(--liter-brown);
-    border-bottom: 1px solid var(--liter-brown);
+    border-top: 2px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
 }
 
 .choco img{
     border-radius: 1rem;
+    margin: 1rem 0.3rem;
+}
+
+.kontakt, .price {
+    color: var(--primary);
+}
+
+.price button{
+    margin-left: 2rem;
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+    color: var(--bg-clr);
+    border-radius: 1rem;
+    padding: 0.5rem 1.2rem;
+    font-family: "Bad Script", cursive;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+
+.kontakt a {
+    margin-left: 2rem;
+}
+
+footer {
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+
+.navbar-brand img {
+    vertical-align: text-bottom;
+}
+
+.navbar {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
 }
