@@ -38,3 +38,9 @@ Color Palette:
 ![Color Palette](./Assignment-8/img/color-palette.png)
 
 Visit the page: [https://rezapps.github.io/frontend/Assignment-8/](https://rezapps.github.io/frontend/Assignment-8/)
+
+### Assignment No.9
+
+Assignment No.9 is JavaScript programming.
+
+Visit the page: [https://rezapps.github.io/frontend/Assignment-9/](https://rezapps.github.io/frontend/Assignment-9/)
