@@ -3,8 +3,9 @@ body {
     margin: 0 auto;
 }
 
-header {
+header, footer {
     text-align: center;
+    padding: 2rem 1rem;
 }
 
 main {
@@ -13,4 +14,102 @@ main {
     align-items: center;
     justify-content: center;
     height: max-content;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.bishSpan {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.bishDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bish {
+    background-color: limegreen;
+}
+
+.bosh {
+    background-color: aqua;
+}
+
+.bishbosh {
+    background-color: orange;
+}
+
+
+.inputDiv form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form button, form input {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 10rem;
+    font-size: 1.2rem;
+}
+
+form button {
+    background-color: limegreen;
+    color: white;
+    width: 11.5rem;
+}
+
+.def{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.def p {
+    margin: 0.5rem;
+}
+
+.tasksUL li{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid limegreen;
+    border-radius: 1rem;
+}
+
+.tasksUL li span {
+    margin: 0 .5rem;
+}
+
+.todoDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    max-width: 340px;
+}
+
+.todoDiv input, .todoDiv ul {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }

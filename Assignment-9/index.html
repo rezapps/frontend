@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Assignment-9</title>
 </head>
@@ -11,21 +13,67 @@
 <body>
     <div class="wrapper">
         <header>
-            <h1>Assignment-9</h1>
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="index.html">
+                    Assignment No.9
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">BishBosh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="todo.html">ToDo List</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
         </header>
 
-        <main>
+        <main class="container mb-4">
             <article>
                 <section>
-                    <h2>BishBosh</h2>
+                    <h2>BishBosh sequence:</h2>
+                    <div class="def">
+
+                    </div>
+                    <hr>
+                    <h3>Make a bishbosh sequence:</h3>
+                    <div class="inputDiv">
+                        <form action="bishForm">
+
+                            <label for="srartNum">Starting number: </label>
+                            <input type="number" value="1" name="srartNum" id="srartNum" min="1" max="1000">
+                            <br>
+                            <label for="lengthNum">Ending number: </label>
+                            <input type="number" value="101" name="lengthNum" id="lengthNum" min="1" max="1000">
+                            <br>
+                            <label for="bishNum">Bish number: </label>
+                            <input type="number" value="3" name="bishNum" id="bishNum" min="1" max="99">
+                            <br>
+                            <label for="boshNum">Bosh number: </label>
+                            <input type="number" value="4" name="boshNum" id="boshNum" min="1" max="99">
+                            <br>
+                            <button id="btn">Submit</button>
+                        </form>
+                    </div>
+                    <hr>
+                    <div class="bishDiv">
+
+                    </div>
                 </section>
             </article>
         </main>
 
-        <footer>
-            <p>Assignment-9, by <a href="https://github.com/rezapps">rezapps</a></p>
+        <footer class="row p-3 text-center">
+            <p>Assignment-9, by <a href="https://github.com/rezapps">Yonas Rezaee</a></p>
         </footer>
     </div>
+    <script src="bishbosh.js"></script>
 </body>
 
 </html>
