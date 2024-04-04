@@ -1,6 +1,6 @@
-# frontend
+# Frontend (html5, css3, js, bootstrap)
 
-## Assignments 6-8
+## Assignments 6-10
 
 ### Assignment No.6
 
@@ -41,6 +41,13 @@ Visit the page: [https://rezapps.github.io/frontend/Assignment-8/](https://rezap
 
 ### Assignment No.9
 
-Assignment No.9 is JavaScript programming.
+Assignment No.9 covers JavaScript programming and Dom Manipulation.
 
-Visit the page: [https://rezapps.github.io/frontend/Assignment-9/](https://rezapps.github.io/frontend/Assignment-9/)
+1. BishBosh (FizzBuzz)
+2. Todo List to add new tasks/items and save them in localstorage. Each task can be marked as complete or get deleted.
+
+Visit the page: [https://rezapps.github.io/frontend/Assignment-9/todo.html](https://rezapps.github.io/frontend/Assignment-9/todo.html)
+
+### Assignment No.10
+
+Assignment No.10 covers API and DOM

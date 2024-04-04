@@ -83,33 +83,26 @@ form button {
     margin: 0.5rem;
 }
 
-.tasksUL li{
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: space-between;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border: 1px solid limegreen;
-    border-radius: 1rem;
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 
-.tasksUL li span {
-    margin: 0 .5rem;
+.errPlace, .err {
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1.5rem;
 }
 
-.todoDiv {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    max-width: 340px;
+.list-group li button{
+    padding: 0.2rem 1.5rem;
 }
 
-.todoDiv input, .todoDiv ul {
-    width: 100%;
-    margin: 0.5rem;
-    padding: 0.5rem;
+.btn-danger {
+    margin-right: 1.5rem;
+}
+
+.warn {
+    color: red;
+    border: 1px solid orangered;
 }
