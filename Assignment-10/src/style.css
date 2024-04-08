@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Starjedi';
+	src: url('./fonts/Starjedi.ttf');
+}
+
+@font-face {
+	font-family: 'Starjout';
+	src: url('./fonts/Starjout.ttf');
+}
+
+:root {
+	line-height: 1.5;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	--fnt-clr: #f9f9f9;
+	--mnu-lnk-clr: #ddd2d2;
+	--mnu-lnk-hover: #0070f3;
+	--list-clr: #FFE81F;
+}
+
+body {
+	background: linear-gradient(to bottom, #060a20 20%, #3a1550 50%, #0f041d 100%);
+	font-family: 'Starjedi', sans-serif;
+}
+
+.pure-menu {
+	font-size: 1.5rem;
+}
+
+.pure-menu-link {
+	color: var(--mnu-lnk-clr);
+
+	&:hover {
+		color: var(--mnu-lnk-hover);
+		background: transparent;
+	}
+}
+
+body main {
+	margin: 0;
+	display: flex;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+
+}
+
+h1 {
+	font-size: 3.2em;
+}
+
+h1,
+h2,
+h3,
+a {
+	font-family: 'Starjout', sans-serif;
+	color: var(--fnt-clr);
+}
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.swcDiv {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+	max-width: 960px;
+}
+
+.swcInfo {
+	text-align: left;
+	padding: 1rem;
+	margin: 1rem;
+	width: 100%;
+	max-width: 600px;
+
+	li {
+		list-style: none;
+	}
+
+	;
+
+	& p {
+		color: var(--list-clr);
+	}
+
+	& span {
+		color: var(--mnu-lnk-clr);
+		margin-right: 1rem;
+	}
+}
