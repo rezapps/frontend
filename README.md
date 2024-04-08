@@ -52,4 +52,4 @@ Visit the page: [https://rezapps.github.io/frontend/Assignment-9/todo.html](http
 
 Assignment No.10 covers API and DOM
 
-Visit the page: [https://rezapps.github.io/frontend/Assignment-10/](https://rezapps.github.io/frontend/Assignment-10/part1/index.html)
+Visit the page:
