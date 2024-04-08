@@ -10,7 +10,6 @@
 
 :root {
 	line-height: 1.5;
-	font-weight: 400;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -24,6 +23,8 @@
 body {
 	background: linear-gradient(to bottom, #060a20 20%, #3a1550 50%, #0f041d 100%);
 	font-family: 'Starjedi', sans-serif;
+	font-weight: 200;
+	letter-spacing: .12rem;
 }
 
 .pure-menu {

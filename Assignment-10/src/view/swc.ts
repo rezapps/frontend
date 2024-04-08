@@ -15,7 +15,6 @@ export default class SWCView implements DOMList {
 		this.ul = document.querySelector('.swcInfo') as HTMLUListElement;
 	}
 
-
 	render(data: SWC): void {
 
 		const df = document.createDocumentFragment();
@@ -25,7 +24,7 @@ export default class SWCView implements DOMList {
 
 			if (key === 'created' || key === 'edited') {
 				li.innerHTML = `<p><span>${key.replace('_', ' ')}:</span> ${new Date(value).toDateString()}</p>`;
-			} else if (key === 'vehicles' || key === 'films' || key === 'starships') {
+			} else if (Array.isArray(value)) {
 				li.innerHTML = `<p><span>${key}:</span> ${value.join(',  ')}</p>`;
 			}
 			else {
