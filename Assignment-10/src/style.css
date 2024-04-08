@@ -1,11 +1,11 @@
 @font-face {
-	font-family: 'Starjedi';
-	src: url('./fonts/Starjedi.ttf');
+	font-family: 'Starjout';
+	src: url('./fonts/Starjout.ttf');
 }
 
 @font-face {
-	font-family: 'Starjout';
-	src: url('./fonts/Starjout.ttf');
+	font-family: 'Starjhol';
+	src: url('./fonts/Starjhol.ttf');
 }
 
 :root {
@@ -21,13 +21,16 @@
 }
 
 body {
-	background: linear-gradient(to bottom, #060a20 20%, #3a1550 50%, #0f041d 100%);
-	font-family: 'Starjedi', sans-serif;
-	font-weight: 200;
-	letter-spacing: .12rem;
+	/* background: linear-gradient(to bottom, #060a20 20%, #3a1550 50%, #0f041d 100%); */
+	font-family: 'Starjhol', sans-serif;
+	letter-spacing: 2px;
+	font-size: 1.2rem;
+	z-index: 0;
+	background: #000 url('./img/stars.webp') repeat top center;
 }
 
 .pure-menu {
+	z-index: 2;
 	font-size: 1.5rem;
 }
 
@@ -41,11 +44,18 @@ body {
 }
 
 body main {
-	margin: 0;
+	background: transparent url('./img/twinkle.webp') repeat top center;
+	animation: move-twink-back 200s linear infinite;
+	margin: 0 auto;
 	display: flex;
 	place-items: center;
 	min-width: 320px;
 	min-height: 100vh;
+
+	text-shadow: -3px 0 0 #000,
+		0 3px 0 #000,
+		3px 0 0 #000,
+		0 -3px 0 #000;
 
 }
 
@@ -98,5 +108,16 @@ a {
 	& span {
 		color: var(--mnu-lnk-clr);
 		margin-right: 1rem;
+	}
+}
+
+
+@keyframes move-twink-back {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: -10000px 5000px;
 	}
 }
