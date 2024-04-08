@@ -17,6 +17,8 @@ export default class SWCView implements DOMList {
 
 	render(data: SWC): void {
 
+		this.ul.innerHTML = '';
+
 		const df = document.createDocumentFragment();
 
 		Object.entries(data).forEach(([key, value]) => {

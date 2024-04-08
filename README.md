@@ -4,7 +4,7 @@
 
 ### Assignment No.6
 
-Assignment No.6 is a simple Html5 only page for a movie. you can visit it here: [https://rezapps.github.io/frontend/Assignment-6/](https://rezapps.github.io/frontend/Assignment-6/)  
+Assignment No.6 is a simple Html5 only page for a movie. you can visit it here: [https://rezapps.github.io/frontend/Assignment-6/](https://rezapps.github.io/frontend/Assignment-6/)
 
 The page passes Html Checker [Html Checker](https://validator.w3.org/nu/?doc=https%3A%2F%2Frezapps.github.io%2Ffrontend%2FAssignment-6%2F)
 
@@ -51,3 +51,5 @@ Visit the page: [https://rezapps.github.io/frontend/Assignment-9/todo.html](http
 ### Assignment No.10
 
 Assignment No.10 covers API and DOM
+
+Visit the page: [https://rezapps.github.io/frontend/Assignment-10/](https://rezapps.github.io/frontend/Assignment-10/dist/index.html)
