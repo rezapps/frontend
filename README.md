@@ -52,4 +52,12 @@ Visit the page: [https://rezapps.github.io/frontend/Assignment-9/todo.html](http
 
 Assignment No.10 covers API and DOM
 
-Visit the page:
+Built with Vite, TypeScript, PureCss. Pnpm is the package mangaer!
+To see the projects for this assignment you need to open in live server.
+
+```bash
+git clone https://github.com/rezapps/frontend.git
+cd frontend/Assignmet-10
+pnpm i
+pnpm run dev
+```
