@@ -11,9 +11,9 @@
 
 body {
     font-family: "Bad Script", cursive;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+	line-height: 2.2;
     background-color: var(--bg-clr);
     color: var(--secondary);
 }
@@ -52,9 +52,10 @@ h1, h2, h3, h4, .kontakt, .price {
 }
 
 
-.products h2 {
+/* .products h2 {
+	padding-top: 1rem;
     margin: 2rem;
-}
+} */
 
 .products img {
     max-width: 240px;
@@ -79,9 +80,9 @@ h1, h2, h3, h4, .kontakt, .price {
     margin-top: 2rem;
 }
 
-div h2 {
+/* div h2 {
     margin-top: 3rem;
-}
+} */
 
 .landing .container-fluid img {
     aspect-ratio: 16/9 auto;
