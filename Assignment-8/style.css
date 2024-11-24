@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Kaushan+Script&family=Vujahday+Script&display=swap');
 
-
 :root {
     --secondary: #f3f4ee;
     --primary: #BF946F;
     --bg-clr: #151515;
 }
 
-
 body {
     font-family: "Bad Script", cursive;
     font-weight: 500;
     font-size: 1.3rem;
-	line-height: 2.2;
+    line-height: 2.2;
     background-color: var(--bg-clr);
     color: var(--secondary);
 }
 
-h1, h2, h3, h4, .kontakt, .price {
+h1,
+h2,
+h3,
+h4,
+.kontakt,
+.price {
     text-align: center;
     font-family: "Kaushan Script", cursive;
     font-weight: 400;
@@ -30,9 +33,10 @@ h1, h2, h3, h4, .kontakt, .price {
     font-size: 1.5rem;
 }
 
-.hero img, .hero video {
+.hero img,
+.hero video {
     width: 100%;
-    height: 100%;
+    height: 430px;
 }
 
 .hero {
@@ -41,8 +45,11 @@ h1, h2, h3, h4, .kontakt, .price {
     max-height: 440px;
 }
 
+.landing .border-img {
+    margin-top: 6rem;
+}
 
-.products div > p {
+.products div>p {
     text-align: left;
     max-width: 95%;
 }
@@ -50,12 +57,6 @@ h1, h2, h3, h4, .kontakt, .price {
 .products h4 {
     max-width: 95%;
 }
-
-
-/* .products h2 {
-	padding-top: 1rem;
-    margin: 2rem;
-} */
 
 .products img {
     max-width: 240px;
@@ -80,10 +81,6 @@ h1, h2, h3, h4, .kontakt, .price {
     margin-top: 2rem;
 }
 
-/* div h2 {
-    margin-top: 3rem;
-} */
-
 .landing .container-fluid img {
     aspect-ratio: 16/9 auto;
     margin: 1rem 0;
@@ -97,17 +94,18 @@ h1, h2, h3, h4, .kontakt, .price {
     justify-content: center;
 }
 
-.border-img img{
+.border-img img {
     border-top: 2px solid var(--primary);
     border-bottom: 2px solid var(--primary);
 }
 
-.choco img{
+.choco img {
     border-radius: 1rem;
     margin: 1rem 0.3rem;
 }
 
-.kontakt, .price {
+.kontakt,
+.price {
     color: var(--primary);
 }
 
@@ -117,7 +115,7 @@ h1, h2, h3, h4, .kontakt, .price {
     justify-content: space-between;
 }
 
-.price button{
+.price button {
     background-color: var(--primary);
     border: 1px solid var(--secondary);
     color: var(--bg-clr);
