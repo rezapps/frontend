@@ -45,10 +45,6 @@ h4,
     max-height: 370px;
 }
 
-.landing .border-img {
-    margin-top: 6rem;
-}
-
 .products div>p {
     text-align: left;
     max-width: 95%;
@@ -57,14 +53,6 @@ h4,
 .products h4 {
     max-width: 95%;
 }
-
-.products img {
-    max-width: 240px;
-    max-height: 280px;
-    height: 180px;
-    width: auto;
-}
-
 
 .products .light {
     max-height: 280px;
@@ -94,14 +82,39 @@ h4,
     justify-content: center;
 }
 
+.landing .border-img {
+    margin-top: 6rem;
+}
+
+.products img {
+    max-width: 240px;
+    max-height: 280px;
+    height: 180px;
+    width: auto;
+}
+
 .border-img img {
     border-top: 2px solid var(--primary);
     border-bottom: 2px solid var(--primary);
 }
 
-.choco img {
-    border-radius: 1rem;
-    margin: 1rem 0.3rem;
+.choco {
+    & img {
+        border-radius: 1rem;
+        aspect-ratio: 16/9 auto;
+    }
+
+    & div {
+        & h3 {
+            margin-top: 3rem;
+            margin-bottom: 1rem;
+        }
+        margin-bottom: 2rem;
+    }
+}
+
+.navbar-brand img {
+    vertical-align: text-bottom;
 }
 
 .kontakt,
@@ -136,11 +149,6 @@ footer {
     margin-top: 4rem;
 }
 
-
-.navbar-brand img {
-    vertical-align: text-bottom;
-}
-
 .navbar {
     max-width: 1300px;
     margin-left: auto;
@@ -149,3 +157,4 @@ footer {
     justify-content: space-between;
     align-items: center
 }
+
